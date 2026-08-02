@@ -18,25 +18,25 @@
 }
 
 /*==============================================================
-# Global Colors - Al-Zikrah Theme
+# Global Colors - Al-Zikrah Royal Islamic Theme
 ==============================================================*/
 :root {
   /* Website Background */
-  --background-color: #FAF8F3;
+  --background-color: #F5F7FA;
 
   /* Default Text */
-  --default-color: #1F2937;
+  --default-color: #222222;
 
   /* Headings */
-  --heading-color: #0F2747;
+  --heading-color: #1B365D;
 
-  /* Primary Brand Color */
-  --accent-color: #C89B3C;
+  /* Primary Accent (Gold) */
+  --accent-color: #D4AF37;
 
-  /* Cards, Forms, Boxes */
+  /* Cards / Forms / Sections */
   --surface-color: #FFFFFF;
 
-  /* Text on Dark Buttons/Sections */
+  /* Text on Dark Backgrounds */
   --contrast-color: #FFFFFF;
 }
 
@@ -47,16 +47,16 @@
   /* Navigation Links */
   --nav-color: #FFFFFF;
 
-  /* Hover & Active */
-  --nav-hover-color: #C89B3C;
+  /* Hover / Active */
+  --nav-hover-color: #D4AF37;
 
   /* Mobile Navigation */
   --nav-mobile-background-color: #FFFFFF;
 
   /* Dropdown */
   --nav-dropdown-background-color: #FFFFFF;
-  --nav-dropdown-color: #1F2937;
-  --nav-dropdown-hover-color: #C89B3C;
+  --nav-dropdown-color: #222222;
+  --nav-dropdown-hover-color: #00796B;
 }
 
 /*==============================================================
@@ -64,17 +64,35 @@
 ==============================================================*/
 
 .light-background {
-  --background-color: #F4F1EA;
-  --surface-color: #FFFFFF;
+  --background-color: #FFFFFF;
+  --surface-color: #F5F7FA;
 }
 
 .dark-background {
-  --background-color: #0F2747;
+  --background-color: #1B365D;
   --default-color: #FFFFFF;
   --heading-color: #FFFFFF;
-  --surface-color: #173B68;
+  --surface-color: #244A7A;
   --contrast-color: #FFFFFF;
 }
+
+/*==============================================================
+# Additional Brand Colors
+==============================================================*/
+
+:root {
+  --primary-color: #1B365D;      /* Royal Blue */
+  --secondary-color: #D4AF37;    /* Islamic Gold */
+  --emerald-color: #00796B;      /* Emerald Green */
+
+  --border-color: #DDE3EA;
+  --muted-text: #6B7280;
+
+  --success-color: #2E7D32;
+  --warning-color: #F9A825;
+  --danger-color: #C62828;
+}
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
